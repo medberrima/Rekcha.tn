@@ -41,4 +41,23 @@ export class FilmService {
       this.films.splice(index,1);
     }
   }
+
+  consulterFilm(id:number) : Film{
+    return this.films.find( f => f.idFilm == id);
+  }
+
+  trierFilms(){
+    this.films = this.films.sort((n1,n2) => {
+      if (n1.idFilm > n2.idFilm) {return 1;}
+      if (n1.idFilm < n2.idFilm) {return -1;}
+      return 0;
+    });
+  }
+
+  updateFilm(f:Film){
+    // console.log(p);
+    this.supprimerFilm(f);
+    this.ajoutFilm(f);
+    this.trierFilms();
+  }
 }
