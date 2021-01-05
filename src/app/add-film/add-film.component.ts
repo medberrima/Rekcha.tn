@@ -21,7 +21,7 @@ export class AddFilmComponent implements OnInit {
   addFilm(){
     // console.log(this.newFilm);
     this.filmService.ajoutFilm(this.newFilm)
-    this.message="FILM "+this.newFilm.nomFilm + " ajoutee avec succes !"
+    this.message= " FILM "+this.newFilm.nomFilm + " ajoutee avec succes !"
 
   }
 }

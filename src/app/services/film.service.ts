@@ -14,16 +14,31 @@ export class FilmService {
         dateSortie : new Date("09/09/2020") ,
         genreFilm : "Docus sciences et nature" 
       },
-      {idFilm : 3,
+      {idFilm : 2,
         nomFilm : "joker",
         dateSortie : new Date("08/31/2019") ,
         genreFilm : "thriller psychologique" 
       },
-      {idFilm : 2,
+      {idFilm : 3,
         nomFilm : "The founder",
         dateSortie : new Date("10/16/2016") ,
         genreFilm : "drame biographique" 
-      }
+      },
+      {idFilm : 4,
+        nomFilm : "Dachra",
+        dateSortie : new Date("02/15/2019") ,
+        genreFilm : "	Film d'horreur" 
+      },
+      {idFilm : 5,
+        nomFilm : "Les Misérables",
+        dateSortie : new Date("10/05/2021") ,
+        genreFilm : "	Film musical" 
+      },
+      {idFilm : 6,
+        nomFilm : "Les Misérables",
+        dateSortie : new Date("10/05/2021") ,
+        genreFilm : "	Film musical" 
+      },
     ];
   }
 
