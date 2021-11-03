@@ -3,4 +3,5 @@ export class Film {
   nomFilm : string;
   dateSortie : Date;
   genreFilm : string ;
+  image : string ;
 }
